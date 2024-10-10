@@ -180,6 +180,10 @@ ul {
 
 .part4 {
     padding: 10% 20%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .grid2title {
@@ -187,21 +191,64 @@ ul {
 }
 
 .row1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.col1 {
     width: calc(90% / 3);
-}
-
-.card3 {
     position:relative;
-    margin-top: 50px;
-    padding: 50px 0px 300px 0px;
+    margin-top: 80px;
     border: 1px solid hsl(252, 64%, 11%);
+    padding: 200px 100px;
 }
 
 /* /part 4 */
-/* /main */
+/* part5 */
+.dboxclient {
+    padding: 0px 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.client {
+    font-size: 40px;
+    line-height: 50px;
+}
+/* /part5 */
+/* footer1 */
+
+.low-1 {
+    display: flex;
+    padding: 100px 20%;
+    background-color: hsl(0deg 0% 0%);
+    color: white;
+    justify-content: space-between;
+
+}
+
+.lowlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lowtitles {
+    font-size: 20px;
+}
+
+.earth {
+    width: 15px;
+}
+
+.low-2 {
+    color: white;
+    margin: 0;
+    background-color: hsl(0deg 0% 0%);
+    padding: 50px 20% 25px 20%;
+}
+
+.last {
+    padding: 25px 25px 25px 0px;
+    border-top: 1px solid white;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+}
