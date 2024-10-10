@@ -266,12 +266,20 @@ ul {
     font-size: 40px;
 }
 
+.grid2titles {
+    font-size: 20px;
+}
+
 .row1 {
     width: calc(90% / 3);
     position: relative;
     margin-top: 80px;
-    border: 1px solid hsl(252, 64%, 11%);
     padding: 200px 100px;
+}
+.card3 {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* /part 4 */
