@@ -4,14 +4,24 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
 /* header */
 header {
+    border-bottom: 1px solid hsl(252deg 8.2% 88.04%);
+    z-index: 9999;
+    background-color: white;
+    position: fixed;
+    width: 100%;
     margin: 0 auto;
     padding: 0% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .top {
@@ -44,6 +54,7 @@ ul {
     width: 130px;
     padding: 10px;
 }
+
 /* /header */
 
 /* main */
@@ -53,10 +64,12 @@ ul {
     background-color: hsl(206.4deg 50% 80.39%);
     margin: 0 auto;
     padding: 5% 15% 1% 15%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .hero2 {
-    position: relative;
+    display: flex;
 }
 
 .maintitle {
@@ -69,20 +82,18 @@ ul {
 }
 
 .heroimg {
-    position: absolute;
-    width: 800px;
-    right: 300px;
-    bottom: 180px;
+    width: 70%;
 }
 
 .herotext {
+    width: 30%;
     display: flex;
-    justify-content: space-between;
     align-items: start;
     flex-direction: column;
     line-height: 23px;
     gap: 30px;
 }
+
 /* /hero */
 /* part 2 */
 .part2 {
@@ -106,21 +117,24 @@ ul {
 }
 
 .col {
-    width: calc(90% / 3);
+    width: calc(95% / 3);
 }
 
 .card1 {
-    position:relative;
+    position: relative;
     margin-top: 50px;
     padding: 50px 0px 800px 0px;
     border: 1px solid hsl(252deg 8.2% 88.04%);
+    max-height: 950px;
 }
 
 .card2 {
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    margin-top: 50px;
-    padding: 150px 166%;
     border: 1px solid hsl(252deg 8.2% 88.04%);
+    margin-top: 60px;
+    padding: 70px;
 }
 
 .icon1 {
@@ -147,6 +161,62 @@ ul {
     align-items: center;
     height: 30px;
 }
+
+.cardbody1 {
+    padding: 7%;
+}
+
+.month {
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.cardherotitle {
+    font-size: 30px;
+}
+
+.cardli {
+    padding-bottom: 10px;
+}
+
+.card1btn {
+    padding: 20px;
+}
+
+.card1bluebtn {
+    padding: 10px;
+}
+
+.buy {
+    padding: 30px;
+    padding-left: 0;
+}
+
+.card1hr {
+    width: 20%;
+}
+
+.card1list {
+    padding: 30px;
+    padding-left: 0;
+}
+
+.icons10 {
+    width: 20px;
+}
+
+.icons11 {
+    width: 15px;
+}
+
+.icons12 {
+    width: 20px;
+}
+
+.selloff {
+    padding: 10px;
+}
+
 /* /part 2 */
 /* part 3 */
 .part3 {
@@ -171,10 +241,16 @@ ul {
 }
 
 .partnerbtn {
-    font-size: 16px;
-    padding: 10px;
     background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
 }
+
 /* /part 3 */
 /* part 4 */
 
@@ -192,7 +268,7 @@ ul {
 
 .row1 {
     width: calc(90% / 3);
-    position:relative;
+    position: relative;
     margin-top: 80px;
     border: 1px solid hsl(252, 64%, 11%);
     padding: 200px 100px;
@@ -212,6 +288,7 @@ ul {
     font-size: 40px;
     line-height: 50px;
 }
+
 /* /part5 */
 /* footer1 */
 
