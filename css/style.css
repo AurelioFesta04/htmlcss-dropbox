@@ -21,9 +21,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 
 .top {
     display: flex;
@@ -42,13 +40,22 @@ ul {
 .bluebtn {
     color: white;
     background-color: hsl(217.23deg 99.22% 50%);
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
+
+.bluebtn:hover {
+    background-color: skyblue;
+  }
 
 .list1-2 {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.borderbottom:hover {
+    border-bottom: 3px solid rgb(37, 29, 29);
+    padding-bottom: 33px;
 }
 
 .logo {
@@ -408,6 +415,7 @@ ul {
     padding: 10%;
 }
 
+
 .bonusimgblack {
     width: 200px;
 }
@@ -429,4 +437,35 @@ ul {
     color: hsl(337.08deg 83.18% 20.98%);
     font-size: 35px;
     line-height: 50px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 7% 20%;
+}
+
+.freqfaq {
+    font-size: 35px;
+}
+
+.faqinner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.paddingplus  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.novisible {
+    display: none;
+}
+
+.magic:hover .novisible {
+    display: block;
 }
